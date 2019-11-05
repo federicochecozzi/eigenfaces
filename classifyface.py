@@ -5,6 +5,10 @@ Created on Sun Nov  3 11:19:48 2019
 @author: Federico
 """
 
+#Este script está pensado para correrse en Spyder, en donde las variables
+#permanecen en memoria; si no es el caso correr eigenfaces.py con el final del
+#código sin comentar
+
 img = S[0] + "20.jpg"   
 
 A = io.imread(img)
